@@ -1,0 +1,297 @@
+nav{
+    background-color: blue;
+    width: 100%;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+label.logo{
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+nav ul li{
+    list-style: none;
+    font-family: Arial;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 5px;
+    margin: 0px;
+
+    }
+    nav ul li a{
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .container {
+        box-sizing: border-box;
+        width: calc(100%-40px);
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+    }
+  .slide img{
+      width: 100%;
+      height: 450px;
+  }
+  .slide h3{
+      text-align: center;
+      font-size: 25px;
+      margin-top: -100px;
+      color: blue;
+  }
+  .slide h4{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -100px;
+    color: blue;
+}
+.hotels h2{
+    margin-top: 150px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.col-sm-4 img{
+
+ height: 250px;
+ width: 300px;
+ border-radius: 10px;
+}
+.col-sm-4 p{
+    
+    color: blue;
+    font-weight: bolder;
+}
+.col-sm-4 p strong{
+    color: crimson;
+    text-align: right;
+    margin-left: 130px;
+}
+.col-sm-4 p span{
+    color:black;
+    font-weight: bolder;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    background-color: gainsboro;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+.offres h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 25px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap:25px ;
+    grid-row-gap: -25px;
+}
+.row p{
+    margin-left: 15px;
+}
+.row .Abidjan{
+    margin-top: 25px;
+    padding-top: 10px;
+    color: blue;
+    font-weight: bolder;
+    font-size: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.Dès{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+.col-ls-4{
+    height: 350px;
+    background-color: blueviolet;
+    width: 250px;
+    border-radius: 5px;
+}
+.col-ls-4 p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+.col-ls-4 img{
+    height: 300px;
+    width: 250px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.MT{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap:25px ;
+    
+}
+h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+}
+.circuit{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 250px;
+    
+}
+.well{
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+}
+.equipe{
+    width: 300px;
+    height: auto;
+    
+}
+.equipe .pro{
+    color: blue;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 15px;
+
+}
+.cercle{
+    width: 100%;
+    background-color: ghostwhite;
+    padding: 25px;
+}
+.equipe .perso{
+    opacity: 0.5;
+}
+.services{
+    border: black ;
+    border-left: solid;
+    border-right: solid;
+    width: 300px;
+}
+.services .pro{
+    color: blue;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 15px;
+    margin-left: 25px;
+}
+.apropos.row{
+    background-color: gainsboro;
+    width: 100%;
+    height: 350px;
+    border-radius: 50px;
+}
+.text{
+   color: blue;
+   font-size: 20px;
+   font-weight: bolder;
+   text-align: center;
+}
+.partenaires h1{
+    text-align: center;
+}
+.partenaires .box{
+    margin-left: 50px;
+}
+.diversite{
+    width: 300px;
+}
+.persnol{
+    font-size: large;
+    opacity: 0.6;
+}
+.box img{
+    height: 200px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.formulaires{
+    background-color: ghostwhite;
+    width: 60%;
+    border-radius: 10px;
+}
+.col-2{
+    display: flex;
+    justify-content: space-around;
+}
+form input{
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    width: 250px;
+    height: 25px;
+	border-radius: 5px;
+}
+textarea{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.blue p{
+    margin-left: 10px;
+    font-size: large;
+    text-align: justify;
+}
+.blue{
+height: auto;
+background-color: blue;
+border-radius: 10px;
+width: 35%;
+color: white;
+}
+button{
+    width: 150px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 200px;
+}
+footer ul{
+    padding: 15px;
+}
+footer ul li{
+    list-style: none;
+    padding: 5px;
+    
+}
+footer ul li a{
+    list-style: none;
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    grid-template-rows: auto;
+    color: white;
+    margin-top: 15px;
+}
